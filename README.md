@@ -18,5 +18,5 @@ When you type "help" after the proxy inicializes it will show you the whole list
 If you want to compile the code yourself you will need a couple aditional libraries such as sqlite3.h and zmqpp.hpp
 Aditional arguments you need to add to the compiler command are: "-lsqlite3 -lpthread"
 
-Tools yoused to make helpString are in devtools folder uploaded here. in the directory its located. 
+Tools yoused to make helpString are in devtools folder uploaded here. in the directory its located. The tool is made in node.js so if you want to use it you need to install node.js first.
 You can get full list of commands with typing "help" and pressing enter after the proxy starts up.
