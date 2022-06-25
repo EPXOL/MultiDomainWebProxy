@@ -8,7 +8,8 @@ You are free to edit the source code for your needs and maybe suggest changes so
 
 **Usage**
 
-Proxy is fully controlled by CLI, when you run the proxy first time it will make a "database.db" file
+Proxy is fully controlled by CLI, when you run the proxy first time it will make a "database.db" file in the directory its located.
+When you type "help" after the proxy inicializes it will show you the whole list of commands there are.
 
 
 
