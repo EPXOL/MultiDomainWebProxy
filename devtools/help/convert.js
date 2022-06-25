@@ -1,0 +1,1 @@
+var fs = require("fs");fs.readFile("text.txt", (err, data) => {data=data.toString();var x=data.split("\n");var s = "";for(str of x) {s += x[0] == str ? str : "\\n"+str};s = s.split("\"").join("\\\"");fs.writeFile("text1.txt", s, "utf-8", () => {});})

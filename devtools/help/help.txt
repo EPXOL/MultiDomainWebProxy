@@ -1,0 +1,26 @@
+    ____________________________________________________________________COMMAND LIST____________________________________________________________________________
+    ) help  <==Lists all commands                                                                                                                              (
+    )__________________________________________________________________________________________________________________________________________________________(
+    )                                                                                                                                                          (
+    ) proxy  <==Proxy server configuration                                                                                                                     (
+    )     |-setport-|  <==Edits port that proxy's listening to                                                                                                 (
+    )          || <port>     <<==Port you want your proxy to listen at, example: 80                                                                            (
+    )     |-getPort-|  <==Outputs port that's set as proxy's listening port                                                                                    (
+    )__________________________________________________________________________________________________________________________________________________________(
+    )                                                                                                                                                          (
+    ) domain                                                                                                                                                   (
+    )      |--list--|  <==Lists all domains registered under this proxy                                                                                        (
+    )                                                                                                                                                          (
+    )      |-create-|  <==Registeres a new domain under this proxy                                                                                             (
+    )            || <domain name>       <==Domain address, examples: "subdomain.example.com" or "example.com" or "www.example.com", etc.                       (
+    )            || <proxy endAddress>  <==Domain/IP Address of server domain will be forwarded to, examples: "server.myhost.net" or "546.414.354.51"          (
+    )            || <proxy endPort>     <==Port of webserver the doamin will be forwarded to                                                                   (
+    )                                                                                                                                                          (
+    )      |--edit--|  <==Edits specific domain's settings                                                                                                     (
+    )          || <domain name>         <==Domain address | Get all registered domains in "#>> domain list"                                                    (
+    )                        || proxyAddress  <==Domain/IP Address of server domain will be forwarded to, examples: "server.myhost.net" or "546.414.354.51"    (
+    )                        || proxyPort     <==Port of webserver the doamin will be forwarded to                                                             (
+    )                                                                                                                                                          (
+    )     |--delete-|  <==Delets specific domain from register of this proxy                                                                                   (
+    )          || <domain name>         <==Domain address | Get all registered domains in "#>> domain list"                                                    (
+    )__________________________________________________________________________________________________________________________________________________________(
